@@ -1,0 +1,37 @@
+/* table */
+.dataTable {
+    border:  1px solid #EFF2F5 !important;
+}
+.dataTable thead {
+    background-color: #f5f8fa;
+    font-size: initial;
+}
+.dataTable tr {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #EFF2F5;
+}
+table.dataTable td, table.dataTable th {
+    border-right: 1px solid #EFF2F5 !important;
+    border-left: 0 !important;
+}
+.dataTable tr:first-child, .dataTable th:first-child, .dataTable td:first-child {
+    padding: 1rem;
+}
+table.dataTable td:last-child, table.dataTable th:last-child {
+    border-right: 0 !important;
+}
+
+@media (min-width: 500px) {
+    #filter_reports_length {
+        float: right;
+    }
+}
+
+.chat-img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+
